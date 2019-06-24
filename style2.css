@@ -1,0 +1,112 @@
+
+#h3{
+    color: white;
+    float: left;
+    margin-left: 100px;
+    margin-top: 16px;
+}
+
+.stut{
+    
+    height: 70px;
+    margin: auto;
+    margin-top: -35px;
+    width: 960px;
+}
+
+#p4-portfolio{
+    color: white;
+    /* float: none; */
+    /* margin-right: 11px; */
+    margin-left: -178px;
+    background-color: blue;
+    /* width: 200px; */
+    /* margin: unset; */
+    position: absolute;
+    height: 22px;
+    margin-top: 90px;
+}
+
+.top-right2{
+    float: right;
+    margin-top: 27px;
+    /* color: yellow; */
+}
+
+#header1{
+    font-family: Georgia;
+    width: 315px;
+    height: 44px;
+    text-align: center;
+    float: left;
+    /* position: fixed; */
+    /* margin-right: -10px; */
+    margin-top: 27px;
+    color: black;
+}
+    
+#Contact-Information{
+    margin-left: 51px;
+}
+#b2{
+    background-color: beige;
+    float: right;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: -200px;
+}
+.top-right{
+    color: red;
+    margin: inherit;
+    /* position: sticky; */
+    /* margin-right: -10px; */
+    /* margin-left: 24px; */
+    float: right;
+}
+
+
+
+
+
+
+@media screen and (max-width: 980px){
+    .bio, .column, .top-right, #courtney{
+        flex-direction: column;
+       /* background-color: yellow; */
+       width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+    #courtney, .container,  .stut {
+        flex-direction: column;
+        width: 10%;
+        background-color: brown
+    }
+    #p{
+        width: 100%;   
+    }
+    .top-right{
+        position: absolute;
+        margin: inherit;
+        /* float: right; */
+        margin-left: 375px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .bio, .top-right, #courtney, .stut{
+        flex-direction: row;
+
+        width: 100%;
+    
+    }
+    .top-right{
+        /* position: absolute;
+        margin: inherit;
+        /* float: right; */
+        margin-left: 375px; 
+        margin-top: 17px
+    }
+}
